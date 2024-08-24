@@ -1,0 +1,10 @@
+.red-button {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.white-button{
+    background-color: green;
+    color: black;
+}
