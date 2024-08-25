@@ -23,3 +23,17 @@ function resetCart(){
     cartQuantity = cartQuantity - cartQuantity;
     console.log(`Cart quantity ${cartQuantity}`);
 }
+
+function addToCart(number){
+    cartQuantity += number;
+    console.log(`Cart quantity ${cartQuantity}`);
+}
+
+function trueOrFalse(){
+    if (false){
+        console.log("Hello");
+    }
+    else{
+        console.log("not hello");
+    }
+}
